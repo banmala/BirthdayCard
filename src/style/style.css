@@ -1,0 +1,19 @@
+/*import necessary fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&display=swap');
+
+/* import all tailwind css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* commons */
+:root {
+    font-size: 16px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Lexend;
+    color: rgb(255, 255, 255);
+}
